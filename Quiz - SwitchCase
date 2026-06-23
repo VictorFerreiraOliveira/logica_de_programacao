@@ -1,0 +1,125 @@
+let pontos = 0
+
+let p1 = prompt(&quot;1) Qual linguagem roda no navegador?\nA) Java\nB) C++\nC)
+Python\nD) JavaScript&quot;)
+switch (p1) {
+case &quot;D&quot;:
+case &quot;d&quot;:
+console.log(&quot;Acertou!&quot;)
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: D&quot;)
+}
+
+let p2 = prompt(&quot;2) Qual comando usamos para mostrar algo?\nA) print\nB)
+console.log\nC) echo\nD) alerta&quot;)
+switch (p2) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+console.log(&quot;Arcetou!&quot;)
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: B&quot;)
+}
+
+let p3 = prompt(&quot;3) Qual palavra cria variável?\nA) var\nB) let\nC) const\nD)
+Todas&quot;)
+switch (p3) {
+
+case &quot;D&quot;:
+case &quot;d&quot;:
+console.log(&quot;Acertou!&quot;)
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: D&quot;)
+}
+
+let p4 = prompt(&quot;4) Qual estrutura usamos para múltiplas escolhas?\nA) if\nB)
+for\nC) switch\nD) while&quot;)
+switch (p4) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+console.log(&quot;Acertou!&quot;)
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: C&quot;)
+}
+
+let p5 = prompt(&quot;5) Qual símbolo é comentário?\nA) //\nB) **\nC) ##\nD) %%&quot;)
+switch (p5) {
+case &quot;A&quot;:
+case &quot;a&quot;:
+console.log(&quot;Acertou!&quot;)
+pontos++
+break
+default:
+
+console.log(&quot;Errou! Resposta correta: A&quot;)
+}
+
+let p6 = prompt(&quot;6) Qual tipo é número?\nA) string\nB) boolean\nC) number\nD)
+array&quot;)
+switch (p6) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+console.log(&quot;Acertou!&quot;)
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: C&quot;)
+}
+
+let p7 = prompt(&quot;7) Qual usamos para entrada de dados?\nA) alert\nB)
+prompt\nC) log\nD) print&quot;)
+switch (p7) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+console.log(&quot;Acertou!&quot;)
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: B&quot;)
+}
+
+let p8 = prompt(&quot;8) Qual é igualdade estrita?\nA) ==\nB) =\nC) ===\nD) !=&quot;)
+switch (p8) {
+case &quot;C&quot;:
+
+case &quot;c&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: C&quot;)
+}
+
+let p9 = prompt(&quot;9) Qual não é tipo de dado?\nA) string\nB) number\nC)
+loop\nD) boolean&quot;)
+switch (p9) {
+case &quot;C&quot;:
+case &quot;c&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: C&quot;);
+}
+
+let p10 = prompt(&quot;10) Qual comando limpa tela no Windows?\nA) clear\nB)
+cls\nC) wipe\nD) clean&quot;)
+switch (p10) {
+case &quot;B&quot;:
+case &quot;b&quot;:
+console.log(&quot;Acertou!&quot;);
+pontos++
+break
+default:
+console.log(&quot;Errou! Resposta correta: B&quot;)
+
+}
+
+console.log(&quot;Você acertou &quot; + pontos + &quot; de 10 perguntas!&quot;)
