@@ -1,0 +1,125 @@
+
+let usuarioVictor = "Victor"
+let senhaVictor = "lovevanessasoniacamisesuzana"
+
+let usuarioFialho = "Fialho"
+let senhaFialho = "suzana"
+
+let usuarioMarcelo = "Marcelo"
+let senhaMarcelo = "vanessa"
+
+let usuarioVinicius = "Vinicius"
+let senhaVinicius = "sonia"
+
+let usuarioNoboro = "Noboro"
+let senhaNoboro = "larrisa"
+
+let usuarioSamyra = "Samyra"
+let senhaSamyra = "sabrina"
+
+let usuarioIsabelle = "Isabelle"
+let senhaIsabelle = "sandra"
+
+let usuarioGiovanna = "Giovanna"
+let senhaGiovanna = "marivalda"
+
+let usuarioJulia = "Julia"
+let senhaJulia = "maedaJulia"
+
+let usuarioCaua = "Caua"
+let senhaCaua = "camilinha"
+
+function fazerLogin() {
+
+    let usuarioDigitado = prompt("Digite seu usuário:")
+    let senhaDigitada = prompt("Digite sua senha:")
+
+    switch (usuarioDigitado) {
+
+        case usuarioVictor:
+            if (senhaDigitada === senhaVictor) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Victor")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break;
+
+        case usuarioFialho:
+            if (senhaDigitada === senhaFialho) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Fialho")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+
+        case usuarioMarcelo:
+            if (senhaDigitada === senhaMarcelo) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Marcelo")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+
+        case usuarioVinicius:
+            if (senhaDigitada === senhaVinicius) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Vinicius")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+
+        case usuarioNoboro:
+            if (senhaDigitada === senhaNoboro) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Noboro")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+
+        case usuarioSamyra:
+            if (senhaDigitada === senhaSamyra) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Samyra")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+
+        case usuarioIsabelle:
+            if (senhaDigitada === senhaIsabelle) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Isabelle")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+
+        case usuarioGiovanna:
+            if (senhaDigitada === senhaGiovanna) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Giovanna")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+            
+        case usuarioJulia:
+            if (senhaDigitada === senhaJulia) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Julia")
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+
+        case usuarioCaua:
+            if (senhaDigitada === senhaCaua) {
+                console.log("Login realizado com sucesso! Bem-vindo(a) Caua");
+            } else {
+                console.log("Senha incorreta!")
+            }
+            break
+
+        default:
+            console.log("Usuário incorreto!")
+    }
+}
+
+
+fazerLogin();
