@@ -1,0 +1,116 @@
+let nome = prompt("Digite seu nome:");
+let sobrenome = prompt("Digite seu sobrenome:");
+let idade = prompt("Digite sua idade:");
+let dataNascimento = prompt("Digite sua data de nascimento:");
+let cpf = prompt("Digite seu CPF:");
+let rg = prompt("Digite seu RG:");
+let nacionalidade = prompt("Digite sua nacionalidade:");
+
+let rua = prompt("Digite sua rua:");
+let numeroCasa = prompt("Digite o número da sua casa:");
+let bairro = prompt("Digite seu bairro:");
+let cidade = prompt("Digite sua cidade:");
+let estado = prompt("Digite seu estado:");
+let cep = prompt("Digite seu CEP:");
+let pais = prompt("Digite seu país:");
+
+let telefonePrincipal = prompt("Digite seu telefone principal:");
+let telefoneSecundario = prompt("Digite seu telefone secundário:");
+let emailPessoal = prompt("Digite seu email pessoal:");
+let emailProfissional = prompt("Digite seu email profissional:");
+let instagram = prompt("Digite seu Instagram:");
+let linkedin = prompt("Digite seu LinkedIn:");
+
+let profissao = prompt("Digite sua profissão:");
+let empresaAtual = prompt("Digite sua empresa atual:");
+let cargo = prompt("Digite seu cargo:");
+let tempoExperiencia = prompt("Digite seu tempo de experiência:");
+let salarioAtual = prompt("Digite seu salário atual:");
+let areaAtuacao = prompt("Digite sua área de atuação:");
+
+let escolaridade = prompt("Digite sua escolaridade:");
+let curso = prompt("Digite seu curso:");
+let instituicao = prompt("Digite a instituição:");
+let anoInicio = prompt("Digite o ano de início do curso:");
+let anoConclusao = prompt("Digite o ano de conclusão:");
+let cursoAdicional = prompt("Digite um curso adicional realizado:");
+
+let linguagemFavorita = prompt("Digite sua linguagem de programação favorita:");
+let editorCodigo = prompt("Digite o editor de código que você utiliza:");
+let sistemaOperacional = prompt("Digite o sistema operacional que você utiliza:");
+let horasEstudo = prompt("Quantas horas você estuda por dia?");
+let areaTecnologia = prompt("Qual área da tecnologia você mais gosta?");
+
+let comidaFavorita = prompt("Digite sua comida favorita:");
+let filmeFavorito = prompt("Digite seu filme favorito:");
+let serieFavorita = prompt("Digite sua série favorita:");
+let musicaFavorita = prompt("Digite sua música favorita:");
+let corFavorita = prompt("Digite sua cor favorita:");
+let hobby = prompt("Digite seu hobby:");
+
+let profissaoSonho = prompt("Digite sua profissão dos sonhos:");
+let empresaSonho = prompt("Digite a empresa onde gostaria de trabalhar:");
+let salarioDesejado = prompt("Digite o salário desejado:");
+let cidadeSonho = prompt("Digite a cidade onde gostaria de morar:");
+let paisSonho = prompt("Digite o país que gostaria de visitar:");
+
+console.log("\nDados Pessoais");
+console.log(nome, sobrenome);
+console.log("Idade:", idade);
+console.log("Nascimento:", dataNascimento);
+console.log("CPF:", cpf);
+console.log("RG:", rg);
+console.log("Nacionalidade:", nacionalidade);
+
+console.log("\nEndereço");
+console.log("Rua:", rua, "Nº", numeroCasa);
+console.log("Bairro:", bairro);
+console.log("Cidade:", cidade, "-", estado);
+console.log("CEP:", cep);
+console.log("País:", pais);
+
+console.log("\nContato");
+console.log("Telefone:", telefonePrincipal);
+console.log("Telefone Secundário:", telefoneSecundario);
+console.log("Email:", emailPessoal);
+console.log("Email Profissional:", emailProfissional);
+console.log("Instagram:", instagram);
+console.log("LinkedIn:", linkedin);
+
+console.log("\nProfissional");
+console.log("Profissão:", profissao);
+console.log("Empresa:", empresaAtual);
+console.log("Cargo:", cargo);
+console.log("Experiência:", tempoExperiencia);
+console.log("Salário:", salarioAtual);
+console.log("Área:", areaAtuacao);
+
+console.log("\nEscolaridade ");
+console.log("Escolaridade:", escolaridade);
+console.log("Curso:", curso);
+console.log("Instituição:", instituicao);
+console.log("Início:", anoInicio);
+console.log("Conclusão:", anoConclusao);
+console.log("Curso adicional:", cursoAdicional);
+
+console.log("\nTecnologia ");
+console.log("Linguagem:", linguagemFavorita);
+console.log("Editor:", editorCodigo);
+console.log("Sistema:", sistemaOperacional);
+console.log("Horas de estudo:", horasEstudo);
+console.log("Área favorita:", areaTecnologia);
+
+console.log("\n Preferências");
+console.log("Comida:", comidaFavorita);
+console.log("Filme:", filmeFavorito);
+console.log("Série:", serieFavorita);
+console.log("Música:", musicaFavorita);
+console.log("Cor:", corFavorita);
+console.log("Hobby:", hobby);
+
+console.log("\nObjetivos");
+console.log("Profissão dos sonhos:", profissaoSonho);
+console.log("Empresa desejada:", empresaSonho);
+console.log("Salário desejado:", salarioDesejado);
+console.log("Cidade:", cidadeSonho);
+console.log("País:", paisSonho);
