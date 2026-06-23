@@ -1,0 +1,68 @@
+console.log(&quot;1 - Windows&quot;);
+console.log(&quot;2 - Linux&quot;);
+
+let so = Number(prompt(&quot;Digite a opção:&quot;));
+
+if (so === 1) {
+console.log(&quot;Comandos Windows&quot;);
+
+let opcao = prompt(&quot;Digite o comando CMD:&quot;);
+
+switch (opcao) {
+case &quot;cd&quot;:
+console.log(&quot;Entra em um diretório&quot;);
+break;
+case &quot;mkdir&quot;:
+console.log(&quot;Cria um novo diretório&quot;);
+break;
+case &quot;dir&quot;:
+console.log(&quot;Lista arquivos e pastas&quot;);
+break;
+case &quot;del&quot;:
+console.log(&quot;Deleta um arquivo&quot;);
+break;
+case &quot;cls&quot;:
+console.log(&quot;Limpa a tela&quot;);
+break;y
+
+case &quot;move&quot;:
+console.log(&quot;Move arquivos&quot;);
+break;
+default:
+console.log(&quot;Comando inválido&quot;);
+}
+
+} else if (so === 2) {
+console.log(&quot;Comandos Linux&quot;);
+
+let opcao = prompt(&quot;Digite o comando Linux:&quot;);
+
+switch (opcao) {
+case &quot;ls&quot;:
+console.log(&quot;Lista arquivos e diretórios&quot;);
+break;
+case &quot;cd&quot;:
+console.log(&quot;Entra em um diretório&quot;);
+break;
+case &quot;mkdir&quot;:
+console.log(&quot;Cria um diretório&quot;);
+break;
+case &quot;rm&quot;:
+console.log(&quot;Remove arquivos ou pastas&quot;);
+break;
+case &quot;clear&quot;:
+console.log(&quot;Limpa a tela&quot;);
+break;
+case &quot;cp&quot;:
+
+console.log(&quot;Copia arquivos&quot;);
+break;
+case &quot;mv&quot;:
+console.log(&quot;Move arquivos&quot;);
+break;
+default:
+console.log(&quot;Comando inválido&quot;);
+}
+
+} else {
+console.log(&quot;Sistema inválido!&quot;);
