@@ -1,0 +1,94 @@
+function bom_dia(){
+console.log(&quot;Bom dia!&quot;) 
+}
+bom_dia()
+
+let num1 = 10
+let num2 = 20
+function soma(){
+console.log(num1+num2)
+}
+soma()
+_______________________________________________________________
+let num1 = Number(prompt(&quot;Digite o primeiro número:&quot;))
+let num2 = Number(prompt(&quot;Digite o segundo número:&quot;))
+
+let operacao = prompt(&quot;Digite a Operação Matemática (+, -, *, /):&quot;)
+
+let resultado
+
+switch (operacao) {
+case &quot;+&quot;:
+resultado = num1 + num2
+break
+case &quot;-&quot;:
+resultado = num1 - num2
+break
+case &quot;*&quot;:
+
+resultado = num1 * num2
+break
+
+case &quot;/&quot;:
+resultado = num1 / num2
+break
+default:
+resultado = &quot;Operação inválida&quot;
+}
+
+console.log(&quot;Resultado: &quot; + resultado)
+
+function soma(a,b){
+return a +b
+}
+console.log(soma(20,47))
+__________________________________________________________
+const nome = &quot;Fernanda&quot;
+let idade = 27
+let categoria
+
+if (idade &lt; 12) {
+categoria = &quot;criança&quot;
+let resultado = idade + 5
+} else if (idade &gt;= 11 &amp;&amp; idade &lt;= 18) {
+categoria = &quot;adolescente&quot;
+} else if (idade &gt; 18 &amp;&amp; idade &lt; 60) {
+categoria = &quot;adulta&quot;
+
+} else if (idade &gt;= 60) {
+categoria = &quot;idosa&quot;
+}
+
+console.log(&quot;Categoria: &quot; + categoria)
+console.log(&quot;idade final: &quot; + idade)
+
+let idade = 25
+
+if (idade &lt; 70) {
+console.log(&quot;Vota obrigatório.&quot;)
+
+if (idade &gt;= 16 &amp;&amp; idade &lt; 18) {
+console.log(&quot;Voto Facultativo.&quot;)
+}
+} else if ((idade &gt;= 16 &amp;&amp; idade &lt; 18) || idade &gt;= 70) {
+console.log(&quot;Voto Facultativo.&quot;)
+} else {
+if (idade &gt;= 18) {
+console.log(&quot;Voto obrigatório.&quot;)
+}
+}
+if (idade &lt;= 70) {
+console.log(&quot;Voto Facultativo.&quot;)
+} else {
+}
+let numero = -5
+
+if (numero &gt; 0) {
+console.log(&quot;Positivo&quot;)
+} else if (numero &lt; 0) {
+console.log(&quot;Negativo&quot;)
+} else {
+console.log(&quot;Zero&quot;)
+}
+
+numero = 10
