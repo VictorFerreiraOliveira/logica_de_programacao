@@ -1,0 +1,19 @@
+let hamburguer1 = 15;
+let batata1 = 10;
+let total1 = (hamburguer1 + batata1)
+console.log("isso é", total1)
+
+let hamburguer2 = 15;
+let batata2 = 10;
+let total2 = (hamburguer2 - batata2)
+console.log("total", total2)
+
+let hamburguer3 = 15;
+let batata3 = 10;
+let total3 = (hamburguer3 * batata3)
+console.log("total", total3)
+
+let hamburguer4 = 15;
+let batata4 = 10;
+let total4 = (hamburguer4 / batata4)
+console.log("total", total4)
