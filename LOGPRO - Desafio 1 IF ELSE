@@ -1,0 +1,286 @@
+let acertos = 0;
+
+let p1 = prompt(&quot;O que é um algoritmo?\n1- Um jogo\n2- Passos para resolver
+um problema\n3- Um sistema\n4- Um computador&quot;)
+if (p1 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p2 = prompt(&quot;Qual estrutura repete código?\n1- if\n2- else\n3- for\n4- var&quot;)
+if (p2 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p3 = prompt(&quot;O que o if faz?\n1- Repete\n2- Cria variável\n3- Verifica
+condição\n4- Apaga dados&quot;)
+if (p3 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p4 = prompt(&quot;Qual é o operador E?\n1- ||\n2- &amp;&amp;\n3- ==\n4- !=&quot;)
+
+if (p4 == 2) {
+
+alert(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p5 = prompt(&quot;Qual é o operador OU?\n1- &amp;&amp;\n2- ||\n3- ==\n4- ===&quot;)
+
+if (p5 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+console.log(&quot;Você acertou &quot; + acertos + &quot; de 5 perguntas!&quot;)
+
+let p6 = prompt(&quot;O que é uma variável?\n1- Um número fixo\n2- Um espaço
+para guardar dados\n3- Um erro\n4- Um programa&quot;)
+if (p6 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p7 = prompt(&quot;Qual destes é um sistema operacional?\n1- Google\n2-
+Windows\n3- JavaScript\n4- HTML&quot;)
+if (p7 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+
+}
+let p8 = prompt(&quot;O que o console.log() faz?\n1- Mostra mensagem no
+console\n2- Apaga dados\n3- Fecha o programa\n4- Cria variável&quot;)
+if (p8 == 1) {
+console.log(&quot;Correto!&quot;)
+acertos++;
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p9 = prompt(&quot;O que é um loop?\n1- Uma condição\n2- Um erro\n3-
+Repetição de código\n4- Um sistema&quot;)
+if (p9 == 3) {
+alert(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p10 = prompt(&quot;Qual parte do sistema operacional gerencia arquivos?\n1-
+Navegador\n2- Gerenciador de arquivos\n3- Teclado\n4- Monitor&quot;)
+if (p10 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+console.log(&quot;Você acertou &quot; + acertos + &quot; de 10 perguntas!&quot;)
+
+Conhecimento Gerais:
+let acertos = 0
+let erros = 0
+
+let p1 = prompt(&quot;Qual é o maior planeta do Sistema Solar?\n1- Terra\n2-
+Marte\n3- Júpiter\n4- Vênus&quot;)
+
+if (p1 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++;
+} else {
+console.log(&quot;Errado!&quot;)
+erros++;
+}
+let p2 = prompt(&quot;Qual país é famoso pela Torre Eiffel?\n1- Itália\n2- França\n3-
+Alemanha\n4- Espanha&quot;)
+
+if (p2 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p3 = prompt(&quot;Quantos continentes existem?\n1- 5\n2- 6\n3- 7\n4- 8&quot;)
+
+if (p3 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p4 = prompt(&quot;Qual é o oceano maior do mundo?\n1- Atlântico\n2- Índico\n3-
+Pacífico\n4- Ártico&quot;)
+
+if (p4 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p5 = prompt(&quot;Quem pintou a Mona Lisa?\n1- Van Gogh\n2- Picasso\n3-
+Leonardo da Vinci\n4- Michelangelo&quot;)
+
+if (p5 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p6 = prompt(&quot;Qual é a capital do Brasil?\n1- São Paulo\n2- Rio de
+Janeiro\n3- Brasília\n4- Salvador&quot;)
+
+if (p6 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p7 = prompt(&quot;Qual é o gás que respiramos para viver?\n1- Oxigênio\n2-
+Hidrogênio\n3- Nitrogênio\n4- Gás carbônico&quot;)
+
+if (p7 == 1) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p8 = prompt(&quot;Qual é o animal conhecido como rei da selva?\n1- Tigre\n2-
+Leão\n3- Elefante\n4- Urso&quot;)
+
+if (p8 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p9 = prompt(&quot;Em que esporte se usa uma bola e uma cesta?\n1- Futebol\n2-
+Vôlei\n3- Basquete\n4- Tênis&quot;)
+
+if (p9 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p10 = prompt(&quot;Qual é o menor país do mundo?\n1- Mônaco\n2- Vaticano\n3-
+Malta\n4- Luxemburgo&quot;)
+
+if (p10 == 2) {
+alert(&quot;Correto!&quot;)
+acertos++
+
+} else {
+alert(&quot;Errado!&quot;)
+}
+alert(&quot;Você acertou &quot; + acertos + &quot; de 10 perguntas!&quot;)
+
+Gostos (Músicas Trap):
+let acertos = 0;
+let p1 = prompt(&quot;Quem é conhecido pelo álbum &#39;Dos Prédios&#39;?\n1- Matuê\n2-
+Veigh\n3- KayBlack\n4- MC IG&quot;)
+
+if (p1 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p2 = prompt(&quot;Qual desses artistas faz parte da gravadora 30PRAUM?\n1-
+Vulgo FK\n2- Yunk Vino\n3- Matuê\n4- MC Negão Original&quot;)
+
+if (p2 == 3) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p3 = prompt(&quot;Quem canta a música &#39;Ladrão&#39;?\n1- KayBlack\n2- Veigh\n3-
+MC IG\n4- Yunk Vino&quot;)
+
+if (p3 == 1) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p4 = prompt(&quot;Qual artista tem estilo mais voltado ao trap melódico?\n1- MC
+IG\n2- Yunk Vino\n3- MC Negão Original\n4- G.A&quot;)
+
+if (p4 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p5 = prompt(&quot;Quem é conhecido pelo hit &#39;Movimento&#39;?\n1- Vulgo FK\n2-
+Veigh\n3- KayBlack\n4- Matuê&quot;)
+
+if (p5 == 2) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p6 = prompt(&quot;Qual desses artistas é conhecido por letras mais
+conscientes?\n1- G.A\n2- MC IG\n3- Vulgo FK\n4- MC Negão Original&quot;);
+
+if (p6 == 1) {
+console.log(&quot;Correto!&quot;);
+
+acertos++
+} else {
+console.log(&quot;Errado!&quot;);
+}
+let p7 = prompt(&quot;Quem lançou o álbum &#39;Máquina do Tempo&#39;?\n1- Veigh\n2-
+KayBlack\n3- Matuê\n4- Yunk Vino&quot;)
+
+if (p7 == 3) {
+alert(&quot;Correto!&quot;)
+acertos++;
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+let p8 = prompt(&quot;Qual desses artistas é mais ligado ao funk/trap?\n1- MC IG\n2-
+Matuê\n3- Yunk Vino\n4- Veigh&quot;)
+
+if (p8 == 1) {
+console.log(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+let p9 = prompt(&quot;Quem é conhecido pelo estilo mais romântico no trap?\n1-
+KayBlack\n2- G.A\n3- MC Negão Original\n4- Vulgo FK&quot;)
+
+if (p9 == 1) {
+console.log(&quot;Correto!&quot;)
+acertos++;
+} else {
+
+console.log(&quot;Errado!&quot;)
+}
+let p10 = prompt(&quot;Quem faz parte da nova geração do trap nacional?\n1-
+Veigh\n2- Todos os anteriores\n3- Nenhum\n4- Só Matuê&quot;)
+
+if (p10 == 2) {
+alert(&quot;Correto!&quot;)
+acertos++
+} else {
+console.log(&quot;Errado!&quot;)
+}
+
+console.log(&quot;Você acertou &quot; + acertos + &quot; de 10 perguntas!&quot;)
