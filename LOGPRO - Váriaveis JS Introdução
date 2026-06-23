@@ -1,0 +1,37 @@
+/*let num1 = 10
+console.log(num1)
+*/
+/*
+let num1 = 10
+let num2 = 20
+let soma = num1 + num2
+console.log(soma)
+*/
+/*
+let idade = 30
+idade += 1
+console.log(idade)
+*/
+/*
+let nome =prompt(&quot;Digite seu nome:&quot;)
+console.log(&quot;Olá&quot;,nome)
+*/
+
+let num1 = Number(prompt(&quot;Digite o valor1: &quot;))
+let num2 = Number(prompt(&quot;Digite o valor2: &quot;))
+let soma = num1+num2
+console.log(soma)
+
+LOGPRO - Váriaveis JS Introdução:
+console.log(&quot;Digite seu nome?&quot;)
+console.log(&quot;Seja bem vindo ao nosso sistema&quot;)
+
+let nome = prompt(&quot;Iniciar o Cadastro&quot;)
+
+let email = prompt (&quot;Digite seu email&quot;)
+console.log(&quot;Seu email foi cadastrado��☝️&quot;)
+console.log(&quot;Responda algumas perguntas:&quot;)
+
+let perguntas = prompt (&quot;Qual sua escola?:&quot;)
+let victor = prompt (&quot;Qual sua turma?:&quot;)
+console.log(&quot;Cadastro realizado com sucesso&quot;)
