@@ -1,0 +1,83 @@
+Classificar Idade (Menor de idade/ Maior de Idade)
+
+let name = (prompt)(&quot;Digite seu Nome!&quot;)
+console.log (&quot;Bem vindo ao nosso Sitema!&quot;,name)
+let idade = (prompt)(&quot;Digite sua Idade!&quot;)
+if (idade&gt;=18)
+console.log (&quot;Parabens, Você é maior de Idade!&quot;)
+else (idade&lt;18)
+console.log (&quot;Você é menor de Idade!&quot;)
+__________________________________________
+
+Classificar Se Números são &gt; ou &lt; ou =
+
+let Number = (prompt)(&quot;Digite Um número Qualquer!&quot;)
+let Number2 = (prompt)(&quot;Digite Outro número por favor!&quot;)
+if (Number&gt;Number2) {
+console.log (&quot;O primeiro Número é maior&quot;)
+} else if (Number2&gt;Number) {
+console.log (&quot;O segundo Número é maior&quot;)
+} else {
+console.log (&quot;Os Números são iguais&quot;)
+}
+
+Exemplo de &amp;&amp; e ||
+&amp;&amp;
+let idade = 20
+let temCarteira = false
+
+if (idade &gt;= 18 &amp;&amp; temCarteira) {
+console.log(&quot;Pode dirigir&quot;)
+} else {
+console.log(&quot;Não pode dirigir&quot;)
+}
+||
+let idade = 16;
+let temAutorizacao = true;
+
+if (idade &gt;= 18 || temAutorizacao) {
+console.log(&quot;Pode entrar&quot;);
+} else {
+console.log(&quot;Não pode entrar&quot;);
+}
+______________________________________________________
+
+SENHA e USÚARIO:
+let usuarioEscrito = &quot;victor&quot;
+let senhaEscrita = &quot;1234&quot;
+let usuario = (prompt)(&quot;Digite seu Usuario:&quot;)
+let senha = (prompt)(&quot;Digite sua senha:&quot;)
+
+if (usuarioEscrito == usuario &amp;&amp; senhaEscrita == senha) {
+console.log (&quot;Usuario e senha esta Correto!&quot;)
+}
+else if (usuarioEscrito != usuario &amp;&amp; senhaEscrita == senha) {
+console.log(&quot;Usuario Errado!&quot;)
+}
+else if (usuarioEscrito == usuario &amp;&amp; senhaEscrita != senha) {
+console.log (&quot;Senha errada!&quot;)
+}
+else if (usuarioEscrito != usuario &amp;&amp; senhaEscrita != senha) {
+console.log (&quot;Usuario e senha Errados!&quot;)
+______________________________________________________
+
+Tabuada Completa:
+let numero = Number(prompt(&quot;Digite um número para ver a
+tabuada:&quot;))
+
+if (numero) {
+console.log(numero + &quot; x 1 = &quot; + (numero * 1))
+console.log(numero + &quot; x 2 = &quot; + (numero * 2))
+console.log(numero + &quot; x 3 = &quot; + (numero * 3))
+console.log(numero + &quot; x 4 = &quot; + (numero * 4))
+console.log(numero + &quot; x 5 = &quot; + (numero * 5))
+console.log(numero + &quot; x 6 = &quot; + (numero * 6))
+console.log(numero + &quot; x 7 = &quot; + (numero * 7))
+console.log(numero + &quot; x 8 = &quot; + (numero * 8))
+
+console.log(numero + &quot; x 9 = &quot; + (numero * 9))
+console.log(numero + &quot; x 10 = &quot; + (numero * 10))
+}
+else {
+console.log(&quot;Digite um número valido&quot;)
+}
